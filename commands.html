@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bot Command Library</title>
+    <link rel="stylesheet" href=""style.css">
+</head>
+<style>
+    body {
+        background-color: #65f704;
+    }
+</style>
+<body>
+<a href="index.html">← Back to Home</a>
+<h2>Bot Command Library</h2>
+<p>Here are the current commands for Server Manager. Some commands are permission based either by the designated roles created by the bot after setup or strictly for the bot owner.<br>Any Admin in a server without one of the bots roles can also use the Manager roles.<br>Only the owner can use the Owner commands.</p>
+<ul>
+    <li><strong>Owner Commands</strong></li>
+    <li>/ownerpanel - Opens a panel to show list of, add, or delete any events that might be on a servers' rotation. This is the hardcoded list of selections available on setup.</li>
+    <li>/synccommands - Synchronizes any new commands with Discord after restart to implement updates.</li>
+    <li>/listrotationoptions - lists all events listed as options for alliance rotations. This list is available to servers via /rotationevents.</li>
+    <li>/addrotationoption - add a new event to the rotation selection for servers to use.</li>
+    <li>/removerotationoption - removes an event from the rotation selection for servers to use.</li>
+    <li>/testgemini - Tests the AI API with hardcoded event announcement.</li>
+    <li>/listearlevents - Lists all known earl events for AI parser to determine if bot should post for Earl or Duke.</li>
+    <li>/addearlevent - add a new earl event for the AI parser.</li>
+    <li>removeearlevent - removes an earl event from the AI parser in the unlikely event of a KC update.</li>
+    <li>/botban - bans a user from all functions of the bot. Only used in the most extreme necessary measures.</li>
+    <li>/botunban - unbans a user and restores access to the bot.</li>
+</ul>
+<ul>
+    <li><strong>Manager commands</strong></li>
+    <li>/setup - Connect the title calls to channels and assign server number and region.</li>
+    <li>/createevent - Manually create an event post if the bot can't detect one.</li>
+    <li>/manage - Opens server management panel for updating names, assign bot status embed in channel of choosing, Assign rotation events for the server, update alliances for the rotation selection, and reparse an event post if a title call didn't appear.</li>
+    <li>/alliances - add, remove, or list the current alliances in the server.</li>
+    <li>/rotationevents - Manage the server rotation events using a multi-select dropdown menu.</li>
+    <li>/rehydrate - reattaches buttons to a title call post that might have become disconnected during bot restart.</li>
+    <li>/pollsettings - In a future update this command will allow the assignment of language channels into categories for polls.</li>
+    <li>/poll - Create a poll after selecting the category and custom options that can then post into multiple language channels as needed.</li>
+    <li>Special Permissions - delete reservation entries, manage all other reservations, proxy vote for title calls and upcoming polls.</strong></li>
+</ul>
+<ul>
+    <li><strong>Public Commands</strong></li>
+    <li>/help - opens the help menu with brief descriptions and copy/paste commands.</li>
+    <li>/checkserverstatus - Shows the current configurations for the server.</li>
+    <li>/ping - checks if the bot is online.</li>
+</ul>
+<div class="a"></div>
+<a href="index.html">← Back to Home</a>
+</body>
+</html>
